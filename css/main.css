@@ -1,1 +1,24 @@
 /* Los estilos de tu proyecto */
+ .logo{
+    display: inline-block;
+    width: 13em;
+    /*El tamaño en que desees*/
+    margin: -.5em auto;
+    /*<-- Este es para cancelar el espacio entre la barra de navegación y la imagen*/
+    /*vertical-align: middle;*/
+ }
+ 
+ body{
+     background: #f7b617;
+     background-image: url("../assets/images/taxi.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     width: 100%;
+     height: 800px;
+ }
+
+ #iphone{
+     background-image: url("../assets/images/iPhone6Plus.png");
+     
+ }
+
